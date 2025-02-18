@@ -28,9 +28,9 @@ int main() {
 
     default:
         cout << "Error! Operator is not correct";
-        result = fail;
+        result = fail;//flags for error input
     }
-
+//!- means not, if result is not fail then print output normally
     if (result != fail)
         cout << "Result: " << result;
     return 0;
